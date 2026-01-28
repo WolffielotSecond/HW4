@@ -651,6 +651,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c84cb6b3616a6f744a901f2e535824be, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _moveSpeed: 2
   Pipe_Up: {fileID: 8709465156593432566}
   Pipe_Down: {fileID: 4235301034460003019}
   Pipe_General:
@@ -668,6 +669,24 @@ MonoBehaviour:
   - {fileID: 5926715786842207284}
   - {fileID: 3736214289047545701}
   - {fileID: 6863592584260151714}
+  pipe_Up_Template:
+  - {fileID: -1170046794, guid: 94b0c46dd9ff5f64aa739c9b3877670e, type: 3}
+  - {fileID: -768358696, guid: 94b0c46dd9ff5f64aa739c9b3877670e, type: 3}
+  - {fileID: 2026591184, guid: 32e552d9938a0934fada5b1c04d86610, type: 3}
+  - {fileID: 977479213, guid: 310cfa234901df442b109196c905dfd9, type: 3}
+  - {fileID: -96028987, guid: 310cfa234901df442b109196c905dfd9, type: 3}
+  pipe_Down_Template:
+  - {fileID: 167883337, guid: 94b0c46dd9ff5f64aa739c9b3877670e, type: 3}
+  - {fileID: 551935574, guid: 94b0c46dd9ff5f64aa739c9b3877670e, type: 3}
+  - {fileID: -817026794, guid: 32e552d9938a0934fada5b1c04d86610, type: 3}
+  - {fileID: 108575030, guid: 310cfa234901df442b109196c905dfd9, type: 3}
+  - {fileID: 511650209, guid: 310cfa234901df442b109196c905dfd9, type: 3}
+  pipe_General_Template:
+  - {fileID: -1318823904, guid: 94b0c46dd9ff5f64aa739c9b3877670e, type: 3}
+  - {fileID: 1336456296, guid: 94b0c46dd9ff5f64aa739c9b3877670e, type: 3}
+  - {fileID: 1429948225, guid: 32e552d9938a0934fada5b1c04d86610, type: 3}
+  - {fileID: 327572672, guid: 310cfa234901df442b109196c905dfd9, type: 3}
+  - {fileID: 654870818, guid: 310cfa234901df442b109196c905dfd9, type: 3}
   _deathCollider:
   - {fileID: 5323308795778676468}
   - {fileID: 3330947107483491469}
@@ -805,7 +824,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 2}
+  m_Size: {x: 0.5, y: 2}
   m_EdgeRadius: 0
 --- !u!1 &4801954647702343699
 GameObject:
